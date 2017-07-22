@@ -1,0 +1,275 @@
+html, body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+body {
+	background:#050d1f url(../images/header.jpg) no-repeat center top;
+	margin-top:42px;
+	/* left:50%;
+	margin-left:-480px;
+	position:absolute; */
+	margin: 42px auto 21px auto;
+	width:960px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#454444;
+	line-height:1.2em;
+	text-align:left;
+}
+#container {
+	background:#fff url(../images/bg_contenu.png) repeat-y 0 0;
+}
+#message {
+	background:#dedddd;
+	border-top: #fff solid 1px;
+	border-bottom: #c1c0c0 solid 1px;
+	text-align:center;
+}
+#message p {
+	font:2.1em Cambria, Georgia, "Times New Roman", Times, serif;
+	line-height:0.8em;
+}
+#contenu, #plan, #rapport {
+	margin:8px 24px;
+	float:right;
+	width:700px;
+}
+#contenu p, #plan, #rapport p {
+	text-align:justify;
+}
+p {
+	font-size:0.8em;
+}
+blockquote {
+	background:url(../images/guillemet.png) no-repeat 0 0;
+	padding:0 32px;
+}
+blockquote, q {
+	font-style:italic;
+}
+blockquote .source {
+	font-size:0.8em;
+	font-weight:bold;
+}
+
+#header {
+	text-align:left;
+	height:128px;
+}
+#logo {
+	height:85px;
+	width:330px;
+	left:50%;
+	margin-left:-165px;
+	position:absolute;
+	float:left;
+	text-align:left;
+}
+#logo h1 {
+	border:none;
+}
+#logo h1 a {
+	text-indent:-7500px;
+	display:block;
+	width:330px;
+	height:85px;
+}
+/* Gray */
+#logo {
+	background:url(../images/logo.png) no-repeat 0 3px;
+}
+a:link {
+	color:#ff9933;
+	font-weight:bold;
+}
+a:visited {
+	color:#844200;
+	font-weight:bold;
+}
+a:focus, a:hover {
+	color:#d06800;
+}
+h1, h3, h4, h5, h6, h2 {
+	color:#848282
+}
+/* Menus */
+#horiznav {
+	background-color: #232323;
+	margin:0;
+	display:block;
+	height:38px;
+	float:none
+}
+#horiznav ul {
+	list-style:none;
+	line-height:38px;
+	padding-top:0px
+}
+#horiznav ul li {
+	margin:0
+}
+#horiznav a {
+	text-transform:capitalize;
+	display:block;
+	height:38px;
+	padding:0 24px;
+	margin:0;
+	font-family: Tahoma, Arial;
+	font-size: 0.8em;
+	line-height: 38px;
+	font-weight: bold;
+}
+#horiznav li a:hover {
+	height:38px
+}
+#horiznav li {
+	float:left;
+	padding:0;
+}
+#horiznav ul li a {
+	color:#ccc;
+	background:#232323;
+}
+#horiznav ul li a:hover {
+	color:#fff;
+	background:#333333;
+}
+#menugauche {
+	background-color:#f9f9f9;
+	float:left;
+	margin:0 0 24px 0;
+	width:212px;
+}
+#menugauche h3 {
+	line-height:1.6em;
+	font-size:0.9em;
+	margin:18px 20px 20px 20px;
+}
+#menugauche ul, .menu ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.menu {
+	padding:0;
+	text-align:left;
+	margin-left:-19px;
+	margin-right:-8px;
+}
+.menu li, .menu li:hover {
+	background-image:none;
+}
+.menu li a {
+	background:url(../images/bg_menu.gif) no-repeat left top;
+	height:26px;
+	line-height:20px;
+	text-decoration:none;
+	display:block;
+	font-size:12px;
+	text-decoration:none;
+	text-indent:22px;
+	padding-top:5px;
+}
+
+ul {
+	margin:0px;
+	padding:0px;
+	list-style:none
+}
+ul li, ul li:hover {
+	padding-left:15px
+}
+body ol {
+	list-style:decimal inside;
+	margin:0;
+	padding:0
+}
+body ol li {
+	margin:0px;
+	padding:5px 3px;
+	list-style-image:none;
+	background:none
+}
+body a, body a:hover {
+	cursor:pointer
+}
+a:link, a:visited {
+	text-decoration:none
+}
+a:hover {
+	text-decoration:none
+}
+h1 {
+	font-size:1.8em;
+	line-height:1.4em;
+	letter-spacing:normal;
+	margin:0 0px 10px 0px;
+	font-family: Cambria, Georgia, "Times New Roman", Times, serif;
+	font-style:normal;
+	font-weight:normal;
+	font-variant:normal;
+	text-decoration:none;
+	color:#ff9933;
+	border-bottom:#ff9933 dotted 1px;
+}
+h2 {
+	font-size:1.4em;
+	line-height:1.4em;
+	text-align:left;
+	margin:10px 0 0 0;
+	padding:0;
+	font-family: Cambria, Georgia, "Times New Roman", Times, serif;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	border-bottom:#dedddd solid 1px;
+}
+h3 {
+	font-size:1.3em;
+	line-height:1.3em
+}
+h4 {
+	font-size:1.2em;
+	line-height:1.2em
+}
+h5 {
+	font-size:1.1em;
+	line-height:1.1em
+}
+h6 {
+	font-size:1em;
+	line-height:1em;
+	font-weight:bold
+}
+img a, img {
+	border:0;
+	padding:0;
+}
+/* Pied de page */
+#footer {
+	color:#d9d8d8;
+	margin:24px 0 0 0;
+	padding:1px 8px;
+	background-color:#343434;
+	clear:both;
+}
+#footer a {
+	color:#848282;
+	font-weight:normal;
+}
+#footer a:hover {
+	color:#777;
+	font-weight:normal;
+}
+
+/* Pages */
+.legende {
+	font-style:italic;
+}
+.source {
+	font-size:0.7em;
+	font-weight:bold;
+}
+#rapport ul {
+	font-size:0.7em;
+}
